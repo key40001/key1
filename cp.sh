@@ -4,4 +4,5 @@ chmod 600 /root/.ssh/skey
 rm -rf /file/key
 rm -rf /file/key1
 eval "$(ssh-agent -s)"
-ssh-add /root/.ssh/skey
+clear
+echo ssh-add /root/.ssh/skey
