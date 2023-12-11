@@ -3,4 +3,4 @@ mv /file/key1/key1 /file/skey
 rm -rf /file/key
 rm -rf /file/key1
 eval "$(ssh-agent -s)"
-ssh -add skey
+ssh-add skey
